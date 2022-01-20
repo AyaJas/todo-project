@@ -5,53 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo Website</title>
+    <link rel="stylesheet" href="./CSS/Home.css">
 </head>
 <body>
+    <div class="grid-container">
 
-    <header>
-        <h1> ToDo <h1>
-        <img src="logo.jpeg" alt="">
-        <nav>
-            <ul>
-                <li><a href="About.html"> About </a></li>
-                <li><a href="#"> Contact Us </a></li>
-                <li><a href="#"> Sign in </a></li>
-                <li><a href="#"> Sign Up </a></li>
-            </ul>
+    <header class="container">
+        <img src="./assets/Hourglass.png" alt="" class="header-logo">
+        <nav class="header-nav">
+            <a href="#"> Home </a>
+            <a href="About.html"> About </a>
+            <a href="#"> Contact us </a>
         </nav>
-
     </header>
 
     <main>
-        <section>
-
-            <p>ToDo website is made to help you to do your task and manage your time</p>
-            <img src="ToDo.jpeg" alt="">
-            
+        <section class="ToDo-Web">
+            <h1>ToDo</h1>
         </section>
 
-        <section>
+        <section class="ToDo-table">
 
-            <table>
+            <table class="Task-table">
                 <tr>
                     <th> Task </th>
                     <th> Status </th>
                 </tr>
                 <tr>
                     <td> Task 1 </td>
-                    <td>graded</td>
+                    <td>
+                        <svg width="120" height="30">
+                        <rect width="300" height="100" style="fill:rgb(0, 0, 0);stroke-width:3;"/>
+                        </svg>
+                    </td>
                </tr>
                 <tr>    
                     <td> Task 2 </td>
-                    <td>completed</td>
+                    <td>
+                        <svg width="120" height="30">
+                            <rect width="300" height="100" style="fill:rgb(250,0,0);stroke-width:3;"/>
+                        </svg>
+                    </td>
                 </tr>
                <tr>    
                     <td>  Task 3 </td>
-                    <td>uncompleted</td>
+                    <td>
+                        <svg width="120" height="30">
+                            <rect width="300" height="100" style="fill:rgb(250,0,0);stroke-width:3;"/>
+                        </svg>
+                    </td>
                 </tr>
                 <tr>
                     <td>  Task 4 </td>
-                    <td>uncompleted</td>
+                    <td>
+                        <svg width="120" height="30">
+                            <rect width="300" height="100" style="fill:rgb(250,0,0);stroke-width:3;"/>
+                        </svg>
+                    </td>
                 </tr>
 
             </table>
@@ -62,37 +72,12 @@
     </main>
 
     <footer>
-        <div> 
-            <img src="Logo.jpeg" alt="">
-        </div>
-
         <div>
-            <p> Follow us: </p>
-            <ul>
-                <li>
-                    <h4>Facebook</h4>
-                    <img src="Facebook.com" alt="">
-                </li>
-                <li>
-                    <h4>LinkedIn</h4>
-                    <img src="Linkdin.com" alt="">
-                </li>
-                <li>
-                    <h4>GitHub</h4>
-                    <img src="github.com" alt="">
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <p> 2022 &copy; All rights reserved </p>
+            <p> All rights reserved &copy; 2022  </p>
        </div>
-
-
-
     </footer>
 
-
+</div>
     
 </body>
 </html>
