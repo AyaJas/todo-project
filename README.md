@@ -6,8 +6,8 @@
 # **ToDo Website**  
 
 ## Q1:
-### Yes, I have some problems understanding the Responsive.
+### No, everything makes sense.
 
 ## Q2:
-### 30 mins.
+###  1 hour.
 
